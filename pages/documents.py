@@ -12,6 +12,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 st.set_page_config(page_title="ChatPDF", page_icon="📄")
 st.header('Chat With Your Documents :books:')
 st.write('Upload your pdfs file and get answer from your pdfs')
+st.write('[![view source code ](https://img.shields.io/badge/view_source_code-gray?logo=github)](https://github.com/mattzuha/TestChat4/blob/main/pages/documents.py)')
 
 # Global variable to store the LLM and embedding model configuration
 llm = None

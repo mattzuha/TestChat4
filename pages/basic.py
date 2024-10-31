@@ -6,6 +6,8 @@ from langchain.chains import ConversationChain
 st.set_page_config(page_title="Chatbot", page_icon="💬")
 st.header('Basic Chatbot :newspaper:')
 st.write('A whatever chatbot')
+st.write('[![view source code ](https://img.shields.io/badge/view_source_code-gray?logo=github)](https://github.com/mattzuha/TestChat4/blob/main/pages/basic.py)')
+
 
 # Global variable to store the LLM configuration
 llm = None
