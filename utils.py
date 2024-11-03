@@ -14,7 +14,7 @@ logger = get_logger('Langchain-Chatbot')
 def enable_chat_history(func):
     if os.environ.get("OPENAI_API_KEY"):
 
-        # to clear chat history after swtching chatbot
+        # to clear chat history after switching chatbot
         current_page = func.__qualname__
         if "current_page" not in st.session_state:
             st.session_state["current_page"] = current_page
