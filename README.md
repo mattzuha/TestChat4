@@ -1,8 +1,5 @@
 # Custom Data Chatbot with Ollama 3.1 8b
 
-Langchain is a powerful framework designed to streamline the development of applications using Language Models (LLMs). \
-It provides a comprehensive integration of various components, simplifying the process of assembling them to create robust applications.
-
 ## 💬 Sample chatbot use cases
 Here are a few examples of chatbot implementations using Langchain and Streamlit:
 -  **Basic Chatbot** \
